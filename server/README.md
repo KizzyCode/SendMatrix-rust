@@ -1,6 +1,6 @@
 [![License BSD-2-Clause](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/KizzyCode/sendmatrix-rust?svg=true)](https://ci.appveyor.com/project/KizzyCode/sendmatrix-rust)
+[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/KizzyCode/SendMatrix-rust?svg=true)](https://ci.appveyor.com/project/KizzyCode/SendMatrix-rust)
 
 
 # `sendmatrix-server`

@@ -7,7 +7,7 @@ keywords = []
 categories = []
 description = "`sendmatrix-server` is the server-side application for `sendmatrix`"
 license = "BSD-2-Clause OR MIT"
-repository = "https://github.com/KizzyCode/sendmatrix-rust"
+repository = "https://github.com/KizzyCode/SendMatrix-rust"
 readme = "README.md"
 
 
@@ -17,7 +17,7 @@ path = "src/main.rs"
 
 
 [badges]
-appveyor = { repository = "KizzyCode/sendmatrix-rust" }
+appveyor = { repository = "KizzyCode/SendMatrix-rust" }
 
 
 [features]
