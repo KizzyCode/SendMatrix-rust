@@ -1,0 +1,37 @@
+[package]
+name = "sendmatrix"
+version = "0.1.0"
+edition = "2021"
+authors = ["KizzyCode Software Labs./Keziah Biermann <development@kizzycode.de>"]
+keywords = []
+categories = []
+description = "`sendmatrix` is a tiny utility to send messages over matrix in automatized contexts"
+license = "BSD-2-Clause OR MIT"
+repository = "https://github.com/KizzyCode/sendmatrix-rust"
+readme = "README.md"
+
+
+[[bin]]
+name = "sendmatrix"
+path = "src/main.rs"
+
+
+[badges]
+appveyor = { repository = "KizzyCode/sendmatrix-rust" }
+
+
+[features]
+default = []
+
+
+[dependencies]
+getrandom = { version = "0.2.10", default-features = false, features = ["std"] }
+
+[dev-dependencies]
+
+
+[profile.release]
+overflow-checks = true
+
+[profile.bench]
+overflow-checks = true

@@ -1,0 +1,36 @@
+[package]
+name = "sendmatrix-server"
+version = "0.1.0"
+edition = "2021"
+authors = ["KizzyCode Software Labs./Keziah Biermann <development@kizzycode.de>"]
+keywords = []
+categories = []
+description = "`sendmatrix-server` is the server-side application for `sendmatrix`"
+license = "BSD-2-Clause OR MIT"
+repository = "https://github.com/KizzyCode/sendmatrix-rust"
+readme = "README.md"
+
+
+[[bin]]
+name = "sendmatrix-server"
+path = "src/main.rs"
+
+
+[badges]
+appveyor = { repository = "KizzyCode/sendmatrix-rust" }
+
+
+[features]
+default = []
+
+
+[dependencies]
+
+[dev-dependencies]
+
+
+[profile.release]
+overflow-checks = true
+
+[profile.bench]
+overflow-checks = true
