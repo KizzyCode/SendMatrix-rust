@@ -5,6 +5,7 @@
 
 # `sendmatrix`
 Welcome to `sendmatrix` 🎉
+
 `sendmatrix` is a tiny utility to send messages over matrix in automatized contexts. It works as a wrapper around
 [`matrix-commander-rs`](https://crates.io/crates/matrix-commander) and offers a file-based IPC mechanism which is
 docker-friendly and can be used via the `sendmatrix` utility, but also via simple shells scripts etc.

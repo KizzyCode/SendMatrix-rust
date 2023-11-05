@@ -5,6 +5,7 @@
 
 # `sendmatrix-server`
 Welcome to `sendmatrix-server` 🎉
+
 `sendmatrix-server` is the server application for `sendmatrix`.
 `sendmatrix` is a tiny utility to send messages over matrix in automatized contexts. It works as a wrapper around
 [`matrix-commander-rs`](https://crates.io/crates/matrix-commander) and offers a file-based IPC mechanism which is
